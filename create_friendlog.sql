@@ -1,0 +1,11 @@
+CREATE TABLE friendlog(
+    FRIEND_URI VARCHAR(255) NOT NULL,
+    FRIEND_NAME VARCHAR(255) NOT NULL,
+    LISTEN_DATE DATETIME NOT NULL,
+    SONG_URI varchar(255) not null,
+    SONG_NAME varchar(255) not null,
+    IMAGE_URL VARCHAR(255) null,
+    ALBUM_NAME varchar(255) null,
+    ARTIST_NAME varchar(255) null,
+    PRIMARY KEY (FRIEND_URI,SONG_URI,LISTEN_DATE)
+);
