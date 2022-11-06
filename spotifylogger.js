@@ -12,7 +12,7 @@ async function main () {
     if(first){ con = await connectDB(); first=false}
     
    
-    const spDcCookie = 'YOUR-COOKİE-HERE'
+    const spDcCookie = 'YOUR-COOKIE-HERE'
     const { accessToken } = await buddyList.getWebAccessToken(spDcCookie)
     var friendActivity = await buddyList.getFriendActivity(accessToken)
   
