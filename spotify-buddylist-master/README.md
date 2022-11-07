@@ -1,5 +1,5 @@
+## https://github.com/valeriangalliat/spotify-buddylist
 # spotify-buddylist [![npm version](http://img.shields.io/npm/v/spotify-buddylist.svg?style=flat-square)](https://www.npmjs.org/package/spotify-buddylist)
-
 > Fetch the friend activity Spotify feed.
 
 **Note:** don't know how to code? Check the [extra info](#dont-know-how-to-code)
