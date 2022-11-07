@@ -89,8 +89,8 @@ async function main () {
 async function connectDB(){
   var con = mysql.createConnection({
     host: "localhost",
-    user: "admin",
-    password: "espace2336",
+    user: "user",
+    password: "password",
     database:"SPOTIFYLOGS"
   });
   
